@@ -47,7 +47,6 @@ To initialize the SDK, add the following code in your Application class or activ
 ```java
 try {
    OderoLibrary.initSDK(Environment.SANDBOX_TR)
-
 } catch (SDKAlreadyInitializedException e) {
     Log.e(TAG, "SDKAlreadyInitialized: " + e.getMessage());
 }
@@ -169,7 +168,9 @@ If you're using ProGuard, add the following rules to your ProGuard configuration
 -keep class com.token.oderopay.** { *; }
 ```
 ## License
-Copyright © 2022 Token Payment Services and Electronic Money Inc. All rights reserved.
+Copyright © 2023 Token Payment Services and Electronic Money Inc. All rights reserved.
+
+[![N|Solid](http://kftech.co/poweredby.png)](http://kftech.co/)
 
 
 
